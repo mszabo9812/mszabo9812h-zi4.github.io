@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    background-color: #FFFFD4;
+    color: #333;
+    width: 70%;
+    text-align: center;
+    border: 2px solid brown;
+    margin: 0 auto;
+}
+
+/* header start */
+
+header {
+    color: white;
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    height: 200px;
+}
+
+h1 {
+    margin: 20px 0;
+    color: #333;
+}
+
+/* header end */
+
+/* nav start */
+
+nav {
+    background-color: #FF7F2A;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #BF153F;
+}
+
+/* nav end */
+
+.content-wrapper {
+    padding: 20px;
+    background-color: white;
+    color: #555;
+}
+
+
+p {
+    margin: 20px;
+    line-height: 1.6;
+    color: black;
+}
+
+h2 {
+    margin: 40px 0 20px 0;
+    color: #000;
+}
+
+.first {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 0;
+}
+
+.second {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.tura-image {
+    width: 30%;
+    height: auto;
+    float: left;
+    margin: 0 15px 10px 0;
+    border-radius: 6px;
+}
+
+
+
+.third {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 0;
+}
+
+.section {
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: 200px;
+    border: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
